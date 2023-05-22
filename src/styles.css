@@ -1,0 +1,201 @@
+/* Add your custom styles here */
+:root {
+    --primary-color: #007bff;    /* Blue */
+    --primary2-color: #1e4f8e;   /* Dark Blue */
+    --secondary2-color: #e83e8c;   /* Pink */
+    --secondary-color: #ffc107;    /* Yellow */
+    --background-color: #f8f9fa;   /* Light Gray */
+    --text-color: #333;            /* Dark Gray */
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: var(--background-color);
+    min-height: 100vh;
+  }
+
+  .App {
+  text-align: center;
+}
+  
+  @media (max-width: 768px) {
+    .App {
+      flex-direction: column;
+    }
+  }
+  
+  h1 {
+    color: var(--primary2-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    transition: border-color 0.3s ease;
+    margin-bottom: 1.5rem;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+
+  .background {
+    background-image: url('clouds.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--primary2-color);
+  }
+  
+  p {
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--secondary2-color);
+    margin: 0 0 auto 0;
+  }
+  
+  h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: var(--secondary-color);
+    margin: 0 0 auto 0;
+  }
+  
+  /* Custom Styles */
+  
+  p.lead {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+  }
+  
+  p.info {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  h2.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+    margin: 0 0 1rem 0;
+  }
+  
+  h2.subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 0 0 1rem 0;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  }  
+  /* Tailwind CSS Utility Classes */
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Additional Styles */
+  
+  .App > h1 {
+    font-size: 3rem;
+  }
+  
+  input[type="text"] {
+    border-radius: 6px;
+  }
+  
+  .error {
+    margin-bottom: 0;
+  }
+  
+  .loader {
+    border: 10px solid var(--primary-color);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

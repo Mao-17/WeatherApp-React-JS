@@ -1,0 +1,8 @@
+/* Add your responsive styles here */
+@media screen and (max-width: 600px) {
+    /* Styles for smaller screens */
+    .App {
+      margin-top: 1rem;
+    }
+  }
+  
