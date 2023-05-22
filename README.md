@@ -24,7 +24,6 @@ This is a weather application built with React.js that retrieves weather informa
    ```bash
    git clone https://github.com/your-username/weather-app.git
    ```
-````
 
 2. Navigate to the project directory:
 
