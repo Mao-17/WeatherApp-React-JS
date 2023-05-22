@@ -37,19 +37,13 @@ This is a weather application built with React.js that retrieves weather informa
    npm install
    ```
 
-4. Obtain an API key from OpenWeatherMap by signing up at https://openweathermap.org and create a `.env` file in the root of the project with the following content:
-
-   ```plaintext
-   REACT_APP_API_KEY=YOUR_OPENWEATHERMAP_API_KEY
-   ```
-
-5. Start the development server:
+4. Start the development server:
 
    ```bash
    npm start
    ```
 
-6. Open the application in your browser at http://localhost:3000.
+5. Open the application in your browser at http://localhost:3000.
 
 ## Usage
 
