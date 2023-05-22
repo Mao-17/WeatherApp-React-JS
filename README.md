@@ -1,6 +1,3 @@
-Certainly! Here's an example structure and content for your `README.md` file:
-
-````markdown
 # Weather App
 
 This is a weather application built with React.js that retrieves weather information using the OpenWeatherMap API.
@@ -68,12 +65,3 @@ This is a weather application built with React.js that retrieves weather informa
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
-Feel free to customize and enhance the content of the `README.md` file based on your project's specific details and requirements.
-```
